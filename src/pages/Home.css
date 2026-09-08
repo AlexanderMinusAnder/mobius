@@ -1,0 +1,12 @@
+.info__article {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.info__article--category {
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
