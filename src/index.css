@@ -3,6 +3,11 @@
     src: url('/src/assets/fonts/Avara-Bold.otf'); /*URL to font*/
 }
 
+@font-face {
+    font-family: 'Basteleur'; /*a name to be used later*/
+    src: url('/src/assets/fonts/Basteleur-Moonlight.otf'); /*URL to font*/
+}
+
 body {
   background: black;
   padding: 0;
@@ -19,4 +24,13 @@ p {
 
 select {
   font-family: 'Avara';
+}
+
+.title {
+  color: rgb(123, 92, 178);
+  font-size: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  font-family: 'Basteleur';
 }

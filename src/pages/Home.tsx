@@ -3,6 +3,13 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import guitare1 from '../assets/images/guitare1.jpeg'
 import guitare2 from '../assets/images/guitare2.jpeg'
+import groupFR from '../assets/images/groupFR.png'
+import theoutcast from '../assets/musics/theoutcast.mp3'
+import theoutcastcover from '../assets/images/theoutcast.png'
+import againstthewind from '../assets/musics/againstthewind.mp3'
+import againstthewindcover from '../assets/images/againstthewind.png'
+import finaldestination from '../assets/musics/finaldestination.mp3'
+import finaldestinationcover from '../assets/images/finaldestination.png'
 
 function Home() {
 
@@ -10,6 +17,8 @@ function Home() {
     <>
         <Navbar></Navbar>
         <div className='info'>
+
+          <h1 className='title'>Présentation du groupe</h1>
 
           <div className='info__article'>
             <div className='info__article--category'>
@@ -30,6 +39,39 @@ function Home() {
               <img src={guitare2} />
             </div>
           </div>
+
+          <img src={groupFR} className='info__group--image' />
+        </div>
+
+        <div className='music'>
+            <h1 className='title'>Nos réalisations</h1>
+
+            <div className='music__container'>
+
+              <div className='music__single'>
+                <img src={theoutcastcover} className='cover' />
+                <audio controls controlsList="nodownload">
+                  <source src={theoutcast} type="audio/mpeg" />
+                </audio>
+              </div>
+
+              <div className='music__single'>
+                <img src={againstthewindcover} className='cover' />
+                <audio controls controlsList="nodownload">
+                  <source src={againstthewind} type="audio/mpeg" />
+                </audio>
+              </div>
+
+              <div className='music__single'>
+                <img src={finaldestinationcover} className='cover' />
+                <audio controls controlsList="nodownload">
+                  <source src={finaldestination} type="audio/mpeg" />
+                </audio>
+              </div>
+
+            </div>
+
+            <p className="music__text">Retrouvez nos autres réalisations sur notre <a href="https://soundcloud.com/moebius-812741817" target="_blank">SoundCloud</a></p>
 
         </div>
         <Footer></Footer>

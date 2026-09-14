@@ -1,0 +1,9 @@
+
+const languages = {
+    "fr": {
+
+    },
+    "en": {
+        
+    }
+}
