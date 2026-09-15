@@ -34,3 +34,12 @@ select {
   justify-content: left;
   font-family: 'Basteleur';
 }
+
+a {
+    color: rgb(123, 92, 178);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(165, 119, 243);
+}

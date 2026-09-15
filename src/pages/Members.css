@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'Basteleur'; /*a name to be used later*/
+    src: url('/src/assets/fonts/Basteleur-Moonlight.otf'); /*URL to font*/
+}
+
+.members {
+    padding: 1rem;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.members__image {
+    width: 102%;
+}
+
+.member {
+    display: flex;
+    flex-direction: row;
+}
+
+.member__name {
+    background: rgb(35, 26, 81);
+    padding: 1rem;
+    width: 250px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+.member__name h2 {
+    font-size: 3rem;
+    color: white;
+    font-family: 'Basteleur';
+}
+
+.member__description {
+    background: rgb(174, 156, 186);
+    padding: 1rem;
+    width: 350px;
+    height: 170px;
+    padding-top: 70px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.member__description p {
+    color: black;
+}
+
+/* .member__image {
+    border: 10px solid rgb(174, 156, 186);
+} */
+
+.member__image img {
+    width: 200px;
+    height: 300px;
+}
+
+.member__list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    padding: 2rem;
+    gap: 5rem;
+}

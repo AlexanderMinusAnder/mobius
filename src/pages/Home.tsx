@@ -10,12 +10,12 @@ import againstthewind from '../assets/musics/againstthewind.mp3'
 import againstthewindcover from '../assets/images/againstthewind.png'
 import finaldestination from '../assets/musics/finaldestination.mp3'
 import finaldestinationcover from '../assets/images/finaldestination.png'
+import { Link } from 'react-router-dom'
 
 function Home() {
 
   return (
     <>
-        <Navbar></Navbar>
         <div className='info'>
 
           <h1 className='title'>Présentation du groupe</h1>
@@ -40,7 +40,7 @@ function Home() {
             </div>
           </div>
 
-          <img src={groupFR} className='info__group--image' />
+          <Link to={"/members"}><img src={groupFR} className='info__group--image' /></Link>
         </div>
 
         <div className='music'>
@@ -74,7 +74,6 @@ function Home() {
             <p className="music__text">Retrouvez nos autres réalisations sur notre <a href="https://soundcloud.com/moebius-812741817" target="_blank">SoundCloud</a></p>
 
         </div>
-        <Footer></Footer>
     </>
   )
 }
