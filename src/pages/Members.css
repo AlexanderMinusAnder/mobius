@@ -52,9 +52,9 @@
     color: black;
 }
 
-/* .member__image {
+.member__image {
     border: 10px solid rgb(174, 156, 186);
-} */
+}
 
 .member__image img {
     width: 200px;
