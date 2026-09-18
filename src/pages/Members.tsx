@@ -4,6 +4,7 @@ import kenny from "../assets/images/kenny.jpeg"
 import drayven from "../assets/images/drayven.jpeg"
 import rox from "../assets/images/rox.jpeg"
 import nathan from "../assets/images/nathan.jpeg"
+import { useEffect } from 'react'
 
 const members: object[] = [
   {
@@ -29,6 +30,10 @@ const members: object[] = [
 ]
 
 function Members() {
+
+  useEffect(() => {
+    window.scroll(0, 0)
+  })
 
   return (
     <div className='members'>

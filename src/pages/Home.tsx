@@ -11,8 +11,18 @@ import againstthewindcover from '../assets/images/againstthewind.png'
 import finaldestination from '../assets/musics/finaldestination.mp3'
 import finaldestinationcover from '../assets/images/finaldestination.png'
 import { Link } from 'react-router-dom'
+import { useEffect } from 'react'
+import useCurrentLanguage from '../hooks/useCurrentLanguage'
 
 function Home() {
+
+  useEffect(() => {
+    window.scroll(0, 0)
+  })
+
+  const home = useCurrentLanguage()
+
+  console.log(home)
 
   return (
     <>
