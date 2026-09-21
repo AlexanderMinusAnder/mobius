@@ -54,12 +54,12 @@ const languages: Languages = {
     "en": {
         "navbar": "In mathematics, a Möbius band is a surface that can be formed by attaching the ends of a strip of paper together with a half-twist.",
         "home": {
-            "title": "Introduction to the band",
+            "title": "Band introduction",
             "article": {
-                "article1": "In the world of metal, Mobius is an optimistic, more energetic take on the genre.",
-                "article2": "Having been founded in 2025, the band preaches the importance of perseverance, unity, and faith-in oneself into its varied and heavy discography.",
+                "article1": "In the world of Metal, Möbius is an optimistic, more energetic take on the genre.",
+                "article2": "Founded in 2025, the band preaches the importance of perseverance, unity, and faith-in oneself into its varied and heavy discography.",
                 "article3": "Loaded with heavy riffs, groovy basslines, frenetic blast-beats, and intense melodies.",
-                "article4": "Mobius is the answer to the grim dystopia we live in."
+                "article4": "Möbius is the answer to the grim dystopia we live in."
             },
             "realization_title": "Our realizations",
             "realization_text": "Find our other realizations on our ",
