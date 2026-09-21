@@ -4,7 +4,7 @@
     align-items: center;
     padding: 0;
     margin: 0;
-    background: #1c003a;
+    background: #151128;
 }
 
 .navbar__image {
@@ -24,4 +24,8 @@
 .language__select {
     padding: 0.5rem;
     border-radius: 2rem;
+}
+
+.language__select:hover {
+    cursor: pointer;
 }

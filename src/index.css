@@ -27,7 +27,7 @@ select {
 }
 
 .title {
-  color: rgb(123, 92, 178);
+  color: #716db4;
   font-size: 4rem;
   display: flex;
   flex-direction: column;
@@ -36,10 +36,10 @@ select {
 }
 
 a {
-    color: rgb(123, 92, 178);
+    color: #716db4;
     text-decoration: none;
 }
 
 a:hover {
-    color: rgb(165, 119, 243);
+    color: #948feb;
 }

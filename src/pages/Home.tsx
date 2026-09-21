@@ -20,41 +20,39 @@ function Home() {
     window.scroll(0, 0)
   })
 
-  const home = useCurrentLanguage()
-
-  console.log(home)
+  const home = useCurrentLanguage().home
 
   return (
     <>
         <div className='info'>
 
-          <h1 className='title'>Présentation du groupe</h1>
+          <h1 className='title'>{home.title}</h1>
 
           <div className='info__article'>
             <div className='info__article--category'>
               <img src={guitare1} />
             </div>
             <div className='info__article--category'>
-              <p>Dans l'univers du metal, Möbius apporte une touche d'optimisme et une énergie nouvelle au genre.</p>
-              <p>Fondé en 2025, le groupe prône l'importance de la persévérance, de l'unité et de la confiance en soi à travers sa discographie variée et puissante.</p>
+              <p>{home.article.article1}</p>
+              <p>{home.article.article2}</p>
             </div>
           </div>
 
           <div className='info__article'>
             <div className='info__article--category'>
-              <p>Un mélange de riffs puissants, de lignes de basse entraînantes, de blast beats endiablés et de mélodies intenses.</p>
-              <p>Mobius est la réponse à la sombre dystopie dans laquelle nous vivons.</p>
+              <p>{home.article.article3}</p>
+              <p>{home.article.article4}</p>
             </div>
             <div className='info__article--category'>
               <img src={guitare2} />
             </div>
           </div>
 
-          <Link to={"/members"}><img src={groupFR} className='info__group--image' /></Link>
+          <Link to={"/members"}><img src={home.image} className='info__group--image' /></Link>
         </div>
 
         <div className='music'>
-            <h1 className='title'>Nos réalisations</h1>
+            <h1 className='title'>{home.realization_title}</h1>
 
             <div className='music__container'>
 
@@ -81,7 +79,7 @@ function Home() {
 
             </div>
 
-            <p className="music__text">Retrouvez nos autres réalisations sur notre <a href="https://soundcloud.com/moebius-812741817" target="_blank">SoundCloud</a></p>
+            <p className="music__text">{home.realization_text} <a href="https://soundcloud.com/moebius-812741817" target="_blank">SoundCloud</a></p>
 
         </div>
     </>

@@ -1,3 +1,6 @@
+import groupFR from "../assets/images/groupFR.png"
+import groupUS from "../assets/images/groupUS.png"
+
 type langObject = {
     navbar: string,
     home: {
@@ -9,7 +12,8 @@ type langObject = {
             article4: string
         }
         realization_title: string,
-        realization_text: string
+        realization_text: string,
+        image: string
     },
     members: {
         title: string,
@@ -36,7 +40,8 @@ const languages: Languages = {
                 "article4": "Mobius est la réponse à la sombre dystopie dans laquelle nous vivons."
             },
             "realization_title": "Nos réalisations",
-            "realization_text": "Retrouvez nos autres réalisations sur notre "
+            "realization_text": "Retrouvez nos autres réalisations sur notre ",
+            "image": groupFR
         },
         "members": {
             "title": "Qui sont les membres de Möbius",
@@ -57,7 +62,8 @@ const languages: Languages = {
                 "article4": "Mobius is the answer to the grim dystopia we live in."
             },
             "realization_title": "Our realizations",
-            "realization_text": "Find our other realizations on our "
+            "realization_text": "Find our other realizations on our ",
+            "image": groupUS
         },
         "members": {
             "title": "Who are the members of Möbius",

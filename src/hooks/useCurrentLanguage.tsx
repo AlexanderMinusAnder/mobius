@@ -5,19 +5,11 @@ import languages from "../utils/languages";
 
 function useCurrentLanguage() {
 
-    let language  = useContext(LanguageContext);
+    let language  = useContext(LanguageContext).language;
 
-    // if (language === "") {
-    //     language = "fr";
-    // }
+    console.log(languages[language])
 
-    // console.log(languages[language])
-
-    // return languages[language];
-
-    console.log(language)
-
-    return language
+    return languages[language]
 }
 
 export default useCurrentLanguage;

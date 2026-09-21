@@ -1,18 +1,17 @@
 import { StrictMode, useState } from 'react'
 import { createRoot } from 'react-dom/client'
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+// import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './index.css'
-import Home from './pages/Home'
-import Members from './pages/Members'
-import Navbar from './components/Navbar'
-import Footer from './components/Footer'
-import { LanguageContext } from './contexts/LanguageContext'
-
-const [language, setLanguage] = useState("fr")
+// import Home from './pages/Home'
+// import Members from './pages/Members'
+// import Navbar from './components/Navbar'
+// import Footer from './components/Footer'
+// import { LanguageContext } from './contexts/LanguageContext'
+import App from './App'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <LanguageContext.Provider value={{ language, setLanguage }}>
+    {/* <LanguageContext.Provider value={{ language, setLanguage }}>
       <BrowserRouter>
       <Navbar />
       <Routes>
@@ -21,6 +20,8 @@ createRoot(document.getElementById('root')!).render(
       </Routes>
       <Footer />
     </BrowserRouter>
-    </LanguageContext.Provider>
+    </LanguageContext.Provider> */}
+
+    <App></App>
   </StrictMode>,
 )
