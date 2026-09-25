@@ -5,6 +5,7 @@ import Home from "./pages/Home"
 import Members from "./pages/Members"
 import Footer from "./components/Footer"
 import { useState } from "react"
+import Email from "./pages/Email"
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
                 <Routes>
                     <Route path="/" element={<Home />} />
                     <Route path="/members" element={<Members />} />
+                    <Route path="/contact" element={<Email />} />
                 </Routes>
                 <Footer />
             </BrowserRouter>
