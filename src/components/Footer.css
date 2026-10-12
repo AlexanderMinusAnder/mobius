@@ -39,3 +39,32 @@
   cursor: pointer;
 }
 
+@media screen and (max-width: 480px) {
+  .footer {
+    height: 100px;
+    width: 370px;
+    padding: 0;
+  }
+
+  .footer__socials {
+    gap: 3rem;
+    padding: 1rem;
+  }
+
+  .footer__socials img {
+    width: 28px;
+    height: 28px;
+  }
+
+  .footer__socials li {
+    width: 28px;
+    height: 28px;
+    padding: 0.5rem;
+    background: white;
+    border-radius: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

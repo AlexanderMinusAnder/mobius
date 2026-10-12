@@ -27,6 +27,7 @@
   border-radius: 0.5rem;
   border: 2px solid black;
   background: #151128;
+  color: white;
 }
 
 .email__form--input::placeholder {
@@ -41,7 +42,8 @@ textarea {
   border-radius: 0.5rem;
   padding: 1rem;
   border: 2px solid black;
-  background: #151128
+  background: #151128;
+  color: white;
 }
 
 textarea::placeholder {

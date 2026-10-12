@@ -29,3 +29,27 @@
 .language__select:hover {
     cursor: pointer;
 }
+
+@media screen and (max-width: 480px) {
+    .navbar {
+        width: 370px;
+        text-align: center;
+    }
+
+    .navbar__image {
+        width: auto;
+        height: 100px;
+    }
+
+    .navbar__text {
+        font-size: 0.5rem;
+    }
+
+    .language__select {
+        font-size: 0.5rem;
+    }
+
+    .navbar__language {
+        width: 90%;
+    }
+}

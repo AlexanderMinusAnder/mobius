@@ -73,3 +73,44 @@ audio::-webkit-media-controls-panel {
 .music__text {
     font-size: 2rem;
 }
+
+@media screen and (max-width: 480px) {
+    .info {
+        padding: 0;
+        margin: 0;
+        width: 370px;
+    }
+
+    .music {
+        display: none;
+    }
+
+    .info__article {
+        padding: 0;
+        margin: 0;
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info__article--category {
+        gap: 0;
+        padding: 0;
+        margin: 0;
+        width: 200px;
+        height: 400px;
+    }
+
+    .info__article--category img {
+        width: auto;
+        height: 150px;
+    }
+
+    .info__article--category p {
+        font-size: 0.7rem;
+    }
+
+    .info__group--image {
+        width: 370px;
+    }
+}
