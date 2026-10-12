@@ -78,7 +78,7 @@ audio::-webkit-media-controls-panel {
     .info {
         padding: 0;
         margin: 0;
-        width: 370px;
+        width: 440px;
     }
 
     .music {
@@ -88,9 +88,9 @@ audio::-webkit-media-controls-panel {
     .info__article {
         padding: 0;
         margin: 0;
-        height: 350px;
+        height: 190px;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
     }
 
     .info__article--category {
@@ -103,7 +103,7 @@ audio::-webkit-media-controls-panel {
 
     .info__article--category img {
         width: auto;
-        height: 150px;
+        height: 125px;
     }
 
     .info__article--category p {
@@ -111,6 +111,6 @@ audio::-webkit-media-controls-panel {
     }
 
     .info__group--image {
-        width: 370px;
+        width: 440px;
     }
 }
