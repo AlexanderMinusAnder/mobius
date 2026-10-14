@@ -16,8 +16,8 @@ function Navbar() {
   }
 
   return (
-    <div className='navbar'>
-        <Link to={"/"}><img src={logo} className='navbar__image' /></Link>
+    <nav className='navbar'>
+      <Link to={"/"}><img src={logo} className='navbar__image' /></Link>
         <p className='navbar__text'>{currentLanguage.navbar}</p>
         <div className='navbar__language'>
             <select className='language__select' onChange={(e) => {selectLanguage(e.target.value)}}>
@@ -25,7 +25,7 @@ function Navbar() {
                 <option value="en">English 🇬🇧</option>
             </select>
         </div>
-    </div>
+    </nav>
   )
 }
 
